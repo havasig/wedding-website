@@ -224,13 +224,15 @@ $(document).ready(function () {
 
         $('#alert-wrapper').html(alert_markup('info', '<strong>Egy pillanat!</strong> Épp beküldjük az adatokat.'));
 
-        var scriptId = "AKfycbxwyx8nx32KiOTHBW8-DMCS_9-feqEZvqeZS5_yFe7jS_JKZ8OahxbQmnXBMtVtOsOV"
+        var scriptId = "TODO" //"AKfycbxwyx8nx32KiOTHBW8-DMCS_9-feqEZvqeZS5_yFe7jS_JKZ8OahxbQmnXBMtVtOsOV"
         $.post('https://script.google.com/macros/s/' + scriptId + '/exec', data)
             .done(function (data) {
                 console.log(data);
                 if (data.result === "error") {
                     $('#alert-wrapper').html(alert_markup('danger', data.message));
                 } else {
+                    document.getElementById('rsvp-form').reset();
+
                     $('#alert-wrapper').html('');
                     $('#rsvp-modal').modal('show');
                 }

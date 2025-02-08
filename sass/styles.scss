@@ -659,12 +659,14 @@ Features-stack
 ========================================================================== */
 .events {
   .leftcol {
-    padding-right: 100px;
     border-right: solid 1px $keyline-color;
-  }
 
-  .rightcol {
-    padding-left: 100px;
+    .wp1,
+    .wp2 {
+      display: grid;
+      align-items: center;
+      text-align: center;
+    }
   }
 
   .time {
