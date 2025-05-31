@@ -224,7 +224,7 @@ $(document).ready(function () {
 
         $('#alert-wrapper').html(alert_markup('info', '<strong>Egy pillanat!</strong> Épp beküldjük az adatokat.'));
 
-        var scriptId = 'AKfycbw9qaAI2_d_crChzlF8vcJOtMAxPqoYUmvIDvwawRdYBgwMobg1RLkgbeJXZtDAQkc'
+        var scriptId = 'AKfycbxX6sJ-1TsKPztFyUQpf_Uq9lYhSGZaBCFfAOpHVpeychxMpbh8aZqUWL6QuOB8P917'
         var url = 'https://script.google.com/macros/s/' + scriptId + '/exec'
         $.post(url, data)
             .done(function (data) {
