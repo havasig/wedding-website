@@ -219,20 +219,14 @@ $(document).ready(function () {
     */
     // original RSVP
     $('#rsvp-form').on('submit', function (e) {
-        console.log("submit 1");
-
         e.preventDefault();
-        console.log("submit 2");
-
         var data = $(this).serialize();
-        console.log("submit 3");
-
 
         $('#alert-wrapper').html(alert_markup('info', '<strong>Egy pillanat!</strong> Épp beküldjük az adatokat.'));
-        console.log("submit 4");
 
-        var scriptId = "TODO" //"AKfycbxwyx8nx32KiOTHBW8-DMCS_9-feqEZvqeZS5_yFe7jS_JKZ8OahxbQmnXBMtVtOsOV"
-        $.post('https://script.google.com/macros/s/' + scriptId + '/exec', data)
+        var scriptId = 'AKfycbw9qaAI2_d_crChzlF8vcJOtMAxPqoYUmvIDvwawRdYBgwMobg1RLkgbeJXZtDAQkc'
+        var url = 'https://script.google.com/macros/s/' + scriptId + '/exec'
+        $.post(url, data)
             .done(function (data) {
                 console.log(data);
                 if (data.result === "error") {
