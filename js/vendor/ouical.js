@@ -62,7 +62,7 @@
     var generateMarkup = function(calendars, clazz, calendarId) {
         var result = document.createElement('div');
         result.innerHTML = ''
-        result.innerHTML += '<button type="button" data-dismiss="modal" id="add-to-calendar-button" for="btn-for-' + calendarId + '" class="btn btn-fill btn-small"><i class="fa fa-calendar"></i>&nbsp;&nbsp; Mégegyszer kitöltöm</button>';
+        result.innerHTML += '<button type="button" data-dismiss="modal" id="add-to-calendar-button" for="btn-for-' + calendarId + '" class="btn btn-fill btn-small"><i class="fa fa-user-plus"></i>&nbsp;&nbsp; Más nevében is kitöltöm</button>';
         result.innerHTML += '<p></p>';
         Object.keys(calendars).forEach(function(services) {
             result.innerHTML += calendars[services];
