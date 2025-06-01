@@ -184,7 +184,7 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Enci és Gábor esküvője",
+            title: "Enikő és Gábor esküvője",
 
             // Event start date
             start: new Date('Aug 2, 2025 17:00'),
@@ -200,7 +200,7 @@ $(document).ready(function () {
             address: 'Nádas Tó Park Hotel, Vasad',
 
             // Event Description
-            description: "Alig várjuk, hogy találkozzunk a nagy napon. Bármilyen kérdéssel vagy problémával keress nyugodtan. Enci: 30-608-3538, Gábor: 20-328-3823"
+            description: "Mi már nagyon várjuk, hogy együtt ünnepelhessünk! 🙂 Bármilyen kérdéssel vagy problémával keress nyugodtan. Enci: 30-608-3538, Gábor: 20-328-3823, Bilicsi Mónika (ceremóniamester): 70-316-8249"
         }
     });
 
@@ -224,7 +224,7 @@ $(document).ready(function () {
 
         $('#alert-wrapper').html(alert_markup('info', '<strong>Egy pillanat!</strong> Épp beküldjük az adatokat.'));
 
-        var scriptId = 'AKfycbxX6sJ-1TsKPztFyUQpf_Uq9lYhSGZaBCFfAOpHVpeychxMpbh8aZqUWL6QuOB8P917'
+        var scriptId = 'AKfycbwVdkeejhlSKMQCCOOqjW0uQWKUhFlkBRHy2OD8xrQ9xVPzmEZnxNVEMmPs6y9BQ5f2'
         var url = 'https://script.google.com/macros/s/' + scriptId + '/exec'
         $.post(url, data)
             .done(function (data) {
