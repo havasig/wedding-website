@@ -200,7 +200,7 @@ $(document).ready(function () {
             address: 'Nádas Tó Park Hotel, Vasad',
 
             // Event Description
-            description: "Mi már nagyon várjuk, hogy együtt ünnepelhessünk! 🙂 Bármilyen kérdéssel vagy problémával keress nyugodtan. Enci: 30/608-3538, Gábor: 20/328-3823, Bilicsi Mónika (ceremóniamester): 70/316-8249"
+            description: "Mi már nagyon várjuk, hogy együtt ünnepelhessünk! 🙂\nBármilyen kérdéssel vagy problémával keress nyugodtan.\nRészletek: https://enikogabor.hu"
         }
     });
 
