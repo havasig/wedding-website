@@ -27,7 +27,7 @@ Global Styles
 }
 
 a {
-  color: $accent-color;
+  color: $accent-color2;
   -webkit-transition-timing-function: ease;
   transition-timing-function: ease;
   -webkit-transition-duration: 200ms;
@@ -38,7 +38,7 @@ a {
 
 a:hover,
 a:focus {
-  color: $accent-color-hover;
+  color: $accent-color-hover2;
   text-decoration: none;
 }
 
@@ -409,7 +409,7 @@ header {
         padding-right: 25px;
 
         &:hover {
-          color: $accent-color;
+          color: $accent-color2;
         }
       }
 
@@ -427,7 +427,7 @@ header {
         color: $txt-light;
 
         &:hover {
-          color: $accent-color;
+          color: $accent-color2;
         }
       }
     }
@@ -466,7 +466,7 @@ Intro
 ========================================================================== */
 .intro span.icon {
   font-size: 40px;
-  color: $accent-color;
+  color: $accent-color2;
   font-weight: bold;
 }
 
@@ -513,7 +513,7 @@ Features-stack
 
   span.icon {
     font-size: 35px;
-    color: $accent-color;
+    color: $accent-color2;
     font-weight: bold;
   }
 
