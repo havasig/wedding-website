@@ -26,7 +26,7 @@
                 '&location=' + (event.address || ''),
                 '&sprop=&sprop=name:'
             ].join(''));
-            return '<a class="icon-google" target="_blank" href="' +
+            return '<a class="btn btn-accent btn-small" target="_blank" href="' +
                 href + '"><i class="fa fa-calendar"></i>&nbsp;&nbsp;Google naptárhoz adom</a>';
         },
     };
